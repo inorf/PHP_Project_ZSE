@@ -17,3 +17,6 @@
         wczytujemy -> import;
     1.2 wprowadzenie kat. 5 (ograniczona ilosc kategorii (wage mozna wybrac):  1 - 1p, 2 - 3p, 3 - 5p, 4 - 8p, 5 - 10p);
     1.3 wprowadzenie odp.
+
+
+    
