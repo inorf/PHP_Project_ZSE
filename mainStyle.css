@@ -4,48 +4,19 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
-
-#tr_podtw{
-    align-items: center;
-    height: 40%;
+    background-color: rgb(14, 19, 85);
 }
 
 #tab_main{
     width: 100%;
     height: 100%;
-    border: 2px black solid;
-}
-
-#tr_main{
-    padding-left: 20%;
-    width: 100%;
-    height: 60%;
-}
-
-#td_div_main{
-    width:80%;
-    height: auto;
-}
-
-#td_czas{
-    width: 20%;
-    height: auto;
+    border: 4px rgb(2, 6, 54) solid;
+    border-radius: 10px;
 }
 
 #div_form{
     width: 100%;
     height: 100%;
-}
-
-#lb{
-    margin-left: 5%;
-}
-
-#div_main{
-    margin-left: 15%;
-    margin-right: 15%;
-    background-color: white;
 }
 
 @media (orientation:landscape) {  
@@ -58,22 +29,156 @@ body{
         font-size: 0.7cm;
     }
 
-    #input_odp{
+    #input_odp1{
         margin-right:5%;
+    }
+
+    #input_odp2{
+        margin-right:5%;
+    }
+
+    #input_odp3{
+        margin-right:5%;
+    }
+
+    #input_odp4{
+        margin-right:5%;
+    }
+    
+    #lb{
+        margin-left: 5%;
+        border: 3px solid black;
+    }
+
+    #tr_podtw{
+        align-items: center;
+        height: 30%;
+    }
+
+    #tr_main{
+        padding-left: 20%;
+        width: 100%;
+        height: 70%;
+    }
+
+    #div_main{
+        margin-top: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: white;
+        height: 80%;
+        border-radius: 10px;
+    }
+
+    #td_div_main{
+        color: azure;
+        background-color: navy;
+        width:80%;
+        height: auto;
+        align-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    #td_czas{
+        background-color: navy;
+        width: 20%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    #podkidysz_czas_tr{
+        height: 0%;
+        width: 100%;
+        align-items: center;
     }
 }
 
 @media (orientation:portrait) {  
 
     #tresc_pyt{
-        font-size: 2cm ;
+        margin-top: 5%;
+        font-size: 1.4cm ;
     }
     
     #tresc_odp{
-        font-size: 1.5cm;
+        font-size: 1.4cm;
+        margin-top: 10%;
     }
 
-    #input_odp{
+    #input_odp1{
         margin-right:10%;
+    }
+
+    #input_odp2{
+        margin-right:10%;
+    }
+
+    #input_odp3{
+        margin-right:10%;
+    }
+
+    #input_odp4{
+        margin-right:10%;
+    }
+    
+    #lb{
+        margin-left: 5%;
+        border: 6px solid black;
+    }
+
+    #tr_podtw{
+        align-items: center;
+        height: 30%;
+        width: 100%;
+    }
+
+    #tr_main{
+        padding-left: 20%;
+        width: 100%;
+        height:55%;
+    }
+
+    #div_main{
+        margin-top: 30%;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: white;
+        height: 60%;
+        border-radius: 10px;
+    }
+
+    #podkidysz_czas_tr{
+        height: 15%;
+        width: 100%;
+        align-items: center;
+    }
+
+    #td_czas{
+        width: 0%;
+        height: auto;
+    }
+
+    #td_div_main{
+        color: azure;
+        width:100%;
+        height: auto;
+        border-radius: 10px;
+        background-color: navy;
+        align-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    #podkidysh_czas_td{
+        background-color: navy;
+        width: 100%;
+        height: 20%;
+        border-radius: 10px;
+    }
+
+    #input_podtw{
+        border-radius: 10px;
+        background-color: navy;
     }
 }
