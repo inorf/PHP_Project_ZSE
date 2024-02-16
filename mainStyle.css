@@ -47,7 +47,8 @@ body{
     
     #lb{
         margin-left: 5%;
-        border: 3px solid black;
+        border: 3px solid azure;
+        padding: 1%;
     }
 
     #tr_podtw{
@@ -98,11 +99,11 @@ body{
 
     #tresc_pyt{
         margin-top: 5%;
-        font-size: 1.4cm ;
+        font-size: 1cm ;
     }
     
     #tresc_odp{
-        font-size: 1.4cm;
+        font-size: 1cm;
         margin-top: 10%;
     }
 
@@ -124,12 +125,13 @@ body{
     
     #lb{
         margin-left: 5%;
-        border: 6px solid black;
+        border: 6px solid azure;
+        padding: 1%;
     }
 
     #tr_podtw{
         align-items: center;
-        height: 30%;
+        height: 20%;
         width: 100%;
     }
 
@@ -173,12 +175,22 @@ body{
     #podkidysh_czas_td{
         background-color: navy;
         width: 100%;
-        height: 20%;
+        height: 2cm;
         border-radius: 10px;
     }
 
     #input_podtw{
         border-radius: 10px;
         background-color: navy;
+    }
+
+    #podtw_odp{
+        width: 70%;
+        font-size: 0.9cm;
+        color: azure;
+        background-color: navy;
+        border: 8px lightgray solid;
+        border-radius: 10px;
+        padding: 3%;
     }
 }
