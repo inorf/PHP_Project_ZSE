@@ -7,12 +7,7 @@ body{
     background-color: rgb(14, 19, 85);
 }
 
-#tab_main{
-    width: 100%;
-    height: 100%;
-    border: 4px rgb(2, 6, 54) solid;
-    border-radius: 20px;
-}
+
 
 #div_form{
     width: 100%;
@@ -20,6 +15,13 @@ body{
 }
 
 @media (orientation:landscape) {  
+
+    #tab_main{
+        width: 100%;
+        height: 100%;
+        border: 4px rgb(2, 6, 54) solid;
+        border-radius: 20px;
+    }
 
     #tresc_pyt{
         margin-top: 7%;
@@ -50,6 +52,7 @@ body{
         margin-left: 5%;
         border: 3px solid violet;
         padding: 1%;
+        border-radius: 5px;
     }
 
     #tr_podtw{
@@ -118,6 +121,13 @@ body{
 
 @media (orientation:portrait) {  
 
+    #tab_main{
+        width: 100%;
+        height: 100%;
+        border: 4px rgb(2, 6, 54) solid;
+        border-radius: 30px;
+    }
+
     #tresc_pyt{
         margin-top: 5%;
         font-size: 1cm ;
@@ -148,6 +158,7 @@ body{
         margin-left: 5%;
         border: 6px solid violet;
         padding: 1%;
+        border-radius: 15px;
     }
 
     #tr_podtw{
@@ -168,7 +179,7 @@ body{
         margin-right: 15%;
         background-color: violet;
         height: 60%;
-        border-radius: 20px;
+        border-radius: 30px;
     }
 
     #podkidysz_czas_tr{
@@ -189,19 +200,22 @@ body{
         background-color: navy;
         align-content: center;
         align-items: center;
-        border-radius: 20px;
+        border-radius: 30px;
+        border: 10px solid violet;
     }
 
     #podkidysh_czas_td{
         background-color: navy;
         width: 100%;
         height: 2cm;
-        border-radius: 20px;
+        border-radius: 30px;
+        border: 10px solid violet;
     }
 
     #input_podtw{
-        border-radius: 20px;
+        border-radius: 30px;
         background-color: navy;
+        border: 10px solid violet;
     }
 
     #podtw_odp{
@@ -210,7 +224,7 @@ body{
         color: azure;
         background-color: navy;
         border: 8px violet solid;
-        border-radius: 20px;
+        border-radius: 30px;
         padding: 3%;
     }
 }
