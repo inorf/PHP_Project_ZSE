@@ -6,7 +6,7 @@
     </head>
     <body>
         <div id="div_main">
-            <form action="/action_page.php" method="post">
+            <form onsubmit="if( this.password.value == 'admin' && this.name.value ==  'admin'){window.location.href = 'asking.html'; this.name.value = ''; this.password.value = ''; return false; }" action="?">
                 <div class="imgcontainer">
                     <img src="img_avatar.png" alt="Avatar" class="avatar">
                 </div>
