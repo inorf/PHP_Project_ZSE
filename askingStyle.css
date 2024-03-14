@@ -146,7 +146,7 @@ body:has(#input_odp4:checked) .odp4 {
         width: 60%;
         font-size: 0.7cm;
         color: azure;
-        border: 6px violet solid;
+        border: 5px violet solid;
         border-radius: 20px;
         padding: 2%;
         background: linear-gradient(#181863, rgb(122, 88, 120));
