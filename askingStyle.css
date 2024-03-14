@@ -1,14 +1,52 @@
 body{
-    background-image: url("https://top-fon.com/uploads/posts/2023-01/1675178778_top-fon-com-p-neonovii-fon-dlya-prezentatsii-5.jpg");
+    background: radial-gradient(rgb(122, 88, 120), rgb(0, 0, 90));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-color: rgb(14, 19, 85);
 }
 
 #podtw_odp:hover, #podtw_odp:active{
     background-position: 0 102%;
+}
+
+body:has(#input_odp1:checked) .odp1 {
+    background: radial-gradient(rgb(122, 88, 120), #1a1a5e);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+body:has(#input_odp2:checked) .odp2 {
+    background: radial-gradient(rgb(122, 88, 120), #1a1a5e);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+body:has(#input_odp3:checked) .odp3 {
+    background: radial-gradient(rgb(122, 88, 120), #1a1a5e);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+body:has(#input_odp4:checked) .odp4 {
+    background: radial-gradient(rgb(122, 88, 120), #1a1a5e);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.input_odp{
+    display: none;
+}
+
+#lb{
+    margin: 5%;
+    border-radius: 10px;
+    padding: 1%;
 }
 
 #div_form{
@@ -32,6 +70,7 @@ body{
     
     #tresc_odp{
         font-size: 0.5cm;
+        text-align-last: center;
     }
 
     #input_odp1{
@@ -48,13 +87,6 @@ body{
 
     #input_odp4{
         margin-right:5%;
-    }
-    
-    #lb{
-        margin-left: 5%;
-        border: 3px solid violet;
-        padding: 1%;
-        border-radius: 5px;
     }
 
     #tr_podtw{
@@ -117,9 +149,9 @@ body{
         border: 6px violet solid;
         border-radius: 20px;
         padding: 2%;
-        background: linear-gradient(#181863, rgb(66, 66, 255));
+        background: linear-gradient(#181863, rgb(122, 88, 120));
         background-repeat: repeat;
-        background-size: 100% 200%;
+        background-size: 100% 210%;
         transition: all .5s linear;
     }
 }
@@ -140,10 +172,11 @@ body{
     }
     
     #tresc_odp{
+        text-align-last: center;
         font-size: 0.8cm;
         margin-top: 10%;
     }
-
+    
     #input_odp1{
         margin-right:10%;
     }
@@ -158,13 +191,6 @@ body{
 
     #input_odp4{
         margin-right:10%;
-    }
-    
-    #lb{
-        margin-left: 5%;
-        border: 6px solid violet;
-        padding: 1%;
-        border-radius: 15px;
     }
 
     #tr_podtw{
@@ -230,7 +256,7 @@ body{
         border: 8px violet solid;
         border-radius: 30px;
         padding: 2%;
-        background: linear-gradient(#181863, rgb(66, 66, 255));
+        background: linear-gradient(#181863, rgb(122, 88, 120));
         background-repeat: repeat;
         background-size: 100% 200%;
         transition: all .5s linear;
